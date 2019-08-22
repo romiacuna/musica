@@ -44,3 +44,80 @@ a:visited{
   min-height:50px;
   padding-top:1%;
 }
+
+.boton{
+  padding: 1%;
+}
+.busqueda{
+  background: #D9E6FB;
+  min-height: 100px;
+  padding: 6%;
+  margin-top:5%;
+  min-width: 200px;
+}
+
+.colbusqueda{
+  background-color: #DAFCFB;
+  min-height: 300px;
+  min-width: 250px;
+  padding-left: 2%;
+  margin-left: 1%;
+}
+
+article.texto{
+  min-height: 200px;
+}
+
+article{
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.opciones{
+min-height: 200px;
+padding-left: 1%;
+padding-right: 1%;
+margin-top:7%;
+min-width: 200px;
+}
+
+img.img{
+  width: 210px;
+}
+
+img.articulo{
+    width: 250px;
+}
+
+.contenido{
+  background-color: #DAFCFB;
+  min-height: 300px;
+  padding-left: 3%;
+  margin-top: 1%;
+  padding-right: 3%;
+}
+.comentarios{
+  padding: 3%;
+}
+
+.icono-grande{
+  width: 50px;
+}
+
+.icono-medio{
+  width: 20px;
+}
+
+li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  background: #ffffff;
+  margin: 2%;
+  padding: 2%;
+}
+
+.navbar-nav>li>a:link, .navbar-default{
+  color: #000000;
+}
+
+.espacio{
+  min-height: 120px;
+}
