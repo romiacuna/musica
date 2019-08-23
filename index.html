@@ -8,53 +8,48 @@
   </head>
 
   <body>
-    <header class="container col-lg-10">
+    <header class="container col-lg-10 col-md-10 col-sm-12 col-xs-12">
+
         <div class="row justify-content-between align-items-end">
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
             <a href="#"><img src="img/musicardialogo.png" class="logo float-left float-sm-none float-xs-none"></a>
           </div>
-          <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-1 col-sm-12 col-xs-12 social text-center">
+          <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-1 col-sm-12 col-xs-12 text-center">
             <a href="#"><img src="glyph/glyphicons-social/png/glyphicons-social-31-facebook.png" class="icono-medio"></a></li>
             <a href="#"><img src="glyph/glyphicons-social/png/glyphicons-social-23-youtube.png" class="icono-medio"></a></li>
             <a href="#"><img src="glyph/glyphicons-social/png/glyphicons-social-32-twitter.png" class="icono-medio"></a></li>
             <a href="#"><img src="glyph/glyphicons-social/png/glyphicons-social-40-e-mail.png" class="icono-medio"></a></li>
             <a href="#"><img src="glyph/glyphicons-social/png/glyphicons-social-62-whatsapp.png" class="icono-medio"></a></li>
           </div>
-
-
-          </div>
         </div>
-
         <div class="espacio"></div>
         <!-- Barra de navegación -->
 
-        <div class="d-flex flex-xs-wrap flex-sm-nowrap justify-content-between clearfix navegador text-center">
-          <div class="col-lg-2">
+        <div class="d-md-inline-flex d-xs-block align-items-center container-fluid navegador text-center">
+          <div class="col-sm col-xs">
               <a class="elemento" href="#">Inicio</a>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm col-xs">
             <a class="elemento" href="#">Artículos</a>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm col-xs">
             <a class="elemento" href="#">Recomendaciones</a>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm col-xs">
             <a class="elemento" href="#">Listas</a>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm col-xs">
             <a class="elemento" href="#">Lanzamientos</a>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm col-xs">
             <a class="elemento" href="#">Reseñas</a>
           </div>
         </div>
         <!-- FIN Barra de navegación -->
-
     </header>
-    <div class="row">
 
-      <div class="container contenido col-lg-8 offset-lg-1 offset-md-1 col-md-8 col-sm-10 col-xs-10"><!-- Contenedor Columna de los artículos (Verde agua) REVISAR ESTRUCTURA DE COLUMNAS-->
-
+    <div class="row col-lg-10 offset-lg-1 col-md-10 offset-md-1 no-gutters">
+      <div class="container contenido col-lg-9 col-md-9 col-sm-12 col-xs-12"><!-- Contenedor Columna de los artículos (Verde agua)-->
         <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12 texto text-justify" id="articulo1"><!-- Artculo 1 -->
           <div class="articulos">
             <h3>La nostalgia del pasado: Neo-Psicodelia</h3><!-- Título Artculo 1 -->
@@ -89,8 +84,9 @@
             </div>
 
         </article>
+        <div class="espacio"></div>
         <hr>
-        <article class="col-lg-12 col-md-6 col-sm-12 col-xs-12 texto text-justify" id="articulo2"> <!-- Artculo 2 -->
+        <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12 texto text-justify" id="articulo2"> <!-- Artculo 2 -->
           <h3>Sueños auditivos</h3><!-- Título Artculo 2 -->
             <div class="articulos">
             <img src="img/dreampop4.jpg" class="articulo2 float-left">
@@ -125,13 +121,17 @@
               </div>
             </div>
         </article>
+        <div class="espacio"></div>
+        <div class="espacio"></div>
+        <div class="espacio"></div>
       </div> <!-- Fin de la columna izquierda de contenido-->
 
-      <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 contenido"><!-- Columna izquierda-->
-          <div class="col-lg-12 busqueda">
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 contenido d-none d-md-block d-lg-block"><!-- Columna izquierda-->
+          <div class="col-lg-12 col-md-10 busqueda text-center">
             <form class="" action="index.html" method="post">
-              <input type="text" placeholder="">
-              <button type="button" name="buscar" value="Submit">Buscar</button>
+              <input type="text" class="form-control">
+              <div class="espacio"></div>
+              <button type="button" class="form-control-sm" name="buscar" value="Submit">Buscar</button>
             </form>
           </div>
 
@@ -152,12 +152,18 @@
             <div class="unaopcion">
               <a href="#"> Por género</a>
             </div>
+            <div class="unaopcion">
+              <a href="#"> Último lanzamiento</a>
+            </div>
+            <div class="unaopcion">
+              <a href="#"> Otros</a>
+            </div>
+
 
           </div>
         </div>
 
       </div>
       </div>
-
   </body>
 </html>
